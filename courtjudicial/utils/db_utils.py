@@ -1,7 +1,9 @@
 import json
 import os
+dir=os.getcwd()
+root = dir.replace("\\", "/")+'/'
+CASE_DB = root+"data/cases.json"
 
-CASE_DB = "data/cases.json"
 
 def load_cases():
     if not os.path.exists(CASE_DB):
