@@ -1,8 +1,8 @@
 import json
 import os
-dir=os.getcwd()
-root = dir.replace("\\", "/")+'/'
-CASE_DB = root+"data/cases.json"
+#dir=os.getcwd()
+#root = dir.replace("\\", "/")+'/'
+CASE_DB = "courtjudicial/data/users.json"
 
 
 def load_cases():
