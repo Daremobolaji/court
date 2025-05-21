@@ -20,7 +20,7 @@ if menu == "Login" and not st.session_state['auth']:
             st.session_state['username'] = username
             st.switch_page("pages/1_Dashboard.py")
         else:
-            st.error("Invalid credentials.")
+            st.error("Invalid credentials.Check again")
 
 elif menu == "Sign Up" and not st.session_state['auth']:
     new_user = st.text_input("New Username")
