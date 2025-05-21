@@ -1,7 +1,7 @@
 import json
 import os
 
-DATA_PATH = "data/users.json"
+DATA_PATH = "courtjudicial/data/users.json"
 
 def load_users():
     if not os.path.exists(DATA_PATH):
