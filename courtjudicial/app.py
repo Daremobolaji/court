@@ -33,5 +33,5 @@ elif menu == "Sign Up" and not st.session_state['auth']:
 
 elif menu == "Logout":
     logout_user()
-    st.success("Logged out successfully.")
+    #st.success("Logged out successfully.")
     #st.session_state['auth'] = False
