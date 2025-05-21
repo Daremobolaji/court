@@ -1,5 +1,6 @@
 import json
 import os
+import streamlit as st
 
 DATA_PATH = "courtjudicial/data/users.json"
 
